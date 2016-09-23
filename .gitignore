@@ -123,7 +123,7 @@ fabric.properties
 
 # *.iml
 # modules.xml
-# .idea/misc.xml 
+# .idea/misc.xml
 # *.ipr
 
 
@@ -160,6 +160,7 @@ build/Release
 # Dependency directories
 node_modules
 jspm_packages
+node_shrinkwrap
 
 # Optional npm cache directory
 .npm
