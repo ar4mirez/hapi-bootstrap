@@ -7,23 +7,6 @@
       "from": "abbrev@>=1.0.0 <2.0.0",
       "resolved": "./node_shrinkwrap/abbrev-1.0.9.tar"
     },
-    "accept": {
-      "version": "2.1.3",
-      "from": "accept@>=2.0.0 <3.0.0",
-      "resolved": "./node_shrinkwrap/accept-2.1.3.tar",
-      "dependencies": {
-        "boom": {
-          "version": "4.0.0",
-          "from": "boom@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/boom-4.0.0.tar"
-        },
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        }
-      }
-    },
     "acorn": {
       "version": "4.0.3",
       "from": "acorn@>=4.0.1 <5.0.0",
@@ -42,14 +25,14 @@
       }
     },
     "ajv": {
-      "version": "4.7.3",
+      "version": "4.7.4",
       "from": "ajv@>=4.7.0 <5.0.0",
-      "resolved": "./node_shrinkwrap/ajv-4.7.3.tar"
+      "resolved": "./node_shrinkwrap/ajv-4.7.4.tar"
     },
     "ajv-keywords": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "from": "ajv-keywords@>=1.0.0 <2.0.0",
-      "resolved": "./node_shrinkwrap/ajv-keywords-1.1.0.tar"
+      "resolved": "./node_shrinkwrap/ajv-keywords-1.1.1.tar"
     },
     "alce": {
       "version": "1.2.0",
@@ -68,7 +51,7 @@
     },
     "ammo": {
       "version": "2.0.2",
-      "from": "ammo@>=2.0.0 <3.0.0",
+      "from": "ammo@2.x.x",
       "resolved": "./node_shrinkwrap/ammo-2.0.2.tar",
       "dependencies": {
         "hoek": {
@@ -172,11 +155,6 @@
       "version": "1.4.1",
       "from": "aws4@>=1.2.1 <2.0.0",
       "resolved": "./node_shrinkwrap/aws4-1.4.1.tar"
-    },
-    "b64": {
-      "version": "3.0.2",
-      "from": "b64@>=3.0.0 <4.0.0",
-      "resolved": "./node_shrinkwrap/b64-3.0.2.tar"
     },
     "babel-cli": {
       "version": "6.14.0",
@@ -626,18 +604,6 @@
       "from": "builtin-modules@>=1.0.0 <2.0.0",
       "resolved": "./node_shrinkwrap/builtin-modules-1.1.1.tar"
     },
-    "call": {
-      "version": "3.0.3",
-      "from": "call@>=3.0.0 <4.0.0",
-      "resolved": "./node_shrinkwrap/call-3.0.3.tar",
-      "dependencies": {
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        }
-      }
-    },
     "call-me-maybe": {
       "version": "1.0.1",
       "from": "call-me-maybe@>=1.0.1 <2.0.0",
@@ -674,45 +640,6 @@
       "version": "0.11.0",
       "from": "caseless@>=0.11.0 <0.12.0",
       "resolved": "./node_shrinkwrap/caseless-0.11.0.tar"
-    },
-    "catbox": {
-      "version": "7.1.2",
-      "from": "catbox@>=7.0.0 <8.0.0",
-      "resolved": "./node_shrinkwrap/catbox-7.1.2.tar",
-      "dependencies": {
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        },
-        "isemail": {
-          "version": "2.2.1",
-          "from": "isemail@>=2.0.0 <3.0.0",
-          "resolved": "./node_shrinkwrap/isemail-2.2.1.tar"
-        },
-        "joi": {
-          "version": "9.0.4",
-          "from": "joi@>=9.0.0 <10.0.0",
-          "resolved": "./node_shrinkwrap/joi-9.0.4.tar"
-        },
-        "topo": {
-          "version": "2.0.2",
-          "from": "topo@>=2.0.0 <3.0.0",
-          "resolved": "./node_shrinkwrap/topo-2.0.2.tar"
-        }
-      }
-    },
-    "catbox-memory": {
-      "version": "2.0.3",
-      "from": "catbox-memory@>=2.0.0 <3.0.0",
-      "resolved": "./node_shrinkwrap/catbox-memory-2.0.3.tar",
-      "dependencies": {
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        }
-      }
     },
     "center-align": {
       "version": "0.1.3",
@@ -820,11 +747,6 @@
       "from": "configstore@>=1.0.0 <2.0.0",
       "resolved": "./node_shrinkwrap/configstore-1.4.0.tar"
     },
-    "content": {
-      "version": "3.0.2",
-      "from": "content@>=3.0.0 <4.0.0",
-      "resolved": "./node_shrinkwrap/content-3.0.2.tar"
-    },
     "convert-source-map": {
       "version": "1.3.0",
       "from": "convert-source-map@>=1.1.0 <2.0.0",
@@ -846,19 +768,14 @@
       "resolved": "./node_shrinkwrap/cross-spawn-async-2.2.4.tar"
     },
     "cryptiles": {
-      "version": "3.1.1",
-      "from": "cryptiles@>=3.0.0 <4.0.0",
-      "resolved": "./node_shrinkwrap/cryptiles-3.1.1.tar",
+      "version": "2.0.5",
+      "from": "cryptiles@>=2.0.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/cryptiles-2.0.5.tar",
       "dependencies": {
         "boom": {
-          "version": "4.0.0",
-          "from": "boom@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/boom-4.0.0.tar"
-        },
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
+          "version": "2.10.1",
+          "from": "boom@>=2.0.0 <3.0.0",
+          "resolved": "./node_shrinkwrap/boom-2.10.1.tar"
         }
       }
     },
@@ -1016,9 +933,9 @@
       }
     },
     "eslint": {
-      "version": "3.5.0",
+      "version": "3.6.1",
       "from": "eslint@>=3.5.0 <4.0.0",
-      "resolved": "./node_shrinkwrap/eslint-3.5.0.tar",
+      "resolved": "./node_shrinkwrap/eslint-3.6.1.tar",
       "dependencies": {
         "ansi-regex": {
           "version": "2.0.0",
@@ -1083,9 +1000,9 @@
       "resolved": "./node_shrinkwrap/eslint-plugin-hapi-4.0.0.tar"
     },
     "espree": {
-      "version": "3.3.0",
-      "from": "espree@>=3.1.6 <4.0.0",
-      "resolved": "./node_shrinkwrap/espree-3.3.0.tar"
+      "version": "3.3.1",
+      "from": "espree@>=3.3.1 <4.0.0",
+      "resolved": "./node_shrinkwrap/espree-3.3.1.tar"
     },
     "esprima": {
       "version": "1.2.5",
@@ -1947,17 +1864,17 @@
         },
         "isemail": {
           "version": "2.2.1",
-          "from": "isemail@>=2.0.0 <3.0.0",
+          "from": "isemail@2.x.x",
           "resolved": "./node_shrinkwrap/isemail-2.2.1.tar"
         },
         "joi": {
           "version": "9.0.4",
-          "from": "joi@>=9.0.0 <10.0.0",
+          "from": "joi@9.x.x",
           "resolved": "./node_shrinkwrap/joi-9.0.4.tar"
         },
         "topo": {
           "version": "2.0.2",
-          "from": "topo@>=2.0.0 <3.0.0",
+          "from": "topo@2.x.x",
           "resolved": "./node_shrinkwrap/topo-2.0.2.tar"
         }
       }
@@ -1974,7 +1891,7 @@
         },
         "isemail": {
           "version": "2.2.1",
-          "from": "isemail@>=2.0.0 <3.0.0",
+          "from": "isemail@2.x.x",
           "resolved": "./node_shrinkwrap/isemail-2.2.1.tar"
         },
         "joi": {
@@ -1984,7 +1901,7 @@
         },
         "topo": {
           "version": "2.0.2",
-          "from": "topo@>=2.0.0 <3.0.0",
+          "from": "topo@2.x.x",
           "resolved": "./node_shrinkwrap/topo-2.0.2.tar",
           "dependencies": {
             "hoek": {
@@ -2008,7 +1925,7 @@
         },
         "isemail": {
           "version": "2.2.1",
-          "from": "isemail@>=2.0.0 <3.0.0",
+          "from": "isemail@2.x.x",
           "resolved": "./node_shrinkwrap/isemail-2.2.1.tar"
         },
         "joi": {
@@ -2023,7 +1940,7 @@
         },
         "topo": {
           "version": "2.0.2",
-          "from": "topo@>=2.0.0 <3.0.0",
+          "from": "topo@2.x.x",
           "resolved": "./node_shrinkwrap/topo-2.0.2.tar"
         }
       }
@@ -2058,9 +1975,9 @@
       }
     },
     "graceful-fs": {
-      "version": "4.1.6",
+      "version": "4.1.8",
       "from": "graceful-fs@>=4.1.2 <5.0.0",
-      "resolved": "./node_shrinkwrap/graceful-fs-4.1.6.tar"
+      "resolved": "./node_shrinkwrap/graceful-fs-4.1.8.tar"
     },
     "graceful-readlink": {
       "version": "1.0.1",
@@ -2085,33 +2002,221 @@
       }
     },
     "hapi": {
-      "version": "15.0.3",
+      "version": "15.1.1",
       "from": "hapi@>=15.0.3 <16.0.0",
-      "resolved": "./node_shrinkwrap/hapi-15.0.3.tar",
+      "resolved": "./node_shrinkwrap/hapi-15.1.1.tar",
       "dependencies": {
+        "accept": {
+          "version": "2.1.2",
+          "from": "accept@2.1.2",
+          "resolved": "./node_shrinkwrap/accept-2.1.2.tar",
+          "dependencies": {
+            "boom": {
+              "version": "3.2.2",
+              "from": "boom@>=3.0.0 <4.0.0",
+              "resolved": "./node_shrinkwrap/boom-3.2.2.tar"
+            }
+          }
+        },
+        "ammo": {
+          "version": "2.0.2",
+          "from": "ammo@2.0.2",
+          "resolved": "./node_shrinkwrap/ammo-2.0.2.tar",
+          "dependencies": {
+            "boom": {
+              "version": "3.2.2",
+              "from": "boom@>=3.0.0 <4.0.0",
+              "resolved": "./node_shrinkwrap/boom-3.2.2.tar"
+            }
+          }
+        },
         "boom": {
           "version": "4.0.0",
-          "from": "boom@>=4.0.0 <5.0.0",
+          "from": "boom@4.0.0",
           "resolved": "./node_shrinkwrap/boom-4.0.0.tar"
         },
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
+        "call": {
+          "version": "3.0.3",
+          "from": "call@3.0.3",
+          "resolved": "./node_shrinkwrap/call-3.0.3.tar",
+          "dependencies": {
+            "boom": {
+              "version": "3.2.2",
+              "from": "boom@>=3.0.0 <4.0.0",
+              "resolved": "./node_shrinkwrap/boom-3.2.2.tar"
+            }
+          }
         },
-        "isemail": {
-          "version": "2.2.1",
-          "from": "isemail@>=2.0.0 <3.0.0",
-          "resolved": "./node_shrinkwrap/isemail-2.2.1.tar"
+        "catbox": {
+          "version": "7.1.2",
+          "from": "catbox@7.1.2",
+          "resolved": "./node_shrinkwrap/catbox-7.1.2.tar",
+          "dependencies": {
+            "boom": {
+              "version": "3.2.2",
+              "from": "boom@>=3.0.0 <4.0.0",
+              "resolved": "./node_shrinkwrap/boom-3.2.2.tar"
+            }
+          }
+        },
+        "catbox-memory": {
+          "version": "2.0.3",
+          "from": "catbox-memory@2.0.3",
+          "resolved": "./node_shrinkwrap/catbox-memory-2.0.3.tar"
+        },
+        "cryptiles": {
+          "version": "3.0.2",
+          "from": "cryptiles@3.0.2",
+          "resolved": "./node_shrinkwrap/cryptiles-3.0.2.tar",
+          "dependencies": {
+            "boom": {
+              "version": "3.2.2",
+              "from": "boom@>=3.0.0 <4.0.0",
+              "resolved": "./node_shrinkwrap/boom-3.2.2.tar"
+            }
+          }
+        },
+        "heavy": {
+          "version": "4.0.2",
+          "from": "heavy@4.0.2",
+          "resolved": "./node_shrinkwrap/heavy-4.0.2.tar",
+          "dependencies": {
+            "boom": {
+              "version": "3.2.2",
+              "from": "boom@>=3.0.0 <4.0.0",
+              "resolved": "./node_shrinkwrap/boom-3.2.2.tar"
+            }
+          }
+        },
+        "hoek": {
+          "version": "4.0.2",
+          "from": "hoek@4.0.2",
+          "resolved": "./node_shrinkwrap/hoek-4.0.2.tar"
+        },
+        "iron": {
+          "version": "4.0.3",
+          "from": "iron@4.0.3",
+          "resolved": "./node_shrinkwrap/iron-4.0.3.tar",
+          "dependencies": {
+            "boom": {
+              "version": "3.2.2",
+              "from": "boom@>=3.0.0 <4.0.0",
+              "resolved": "./node_shrinkwrap/boom-3.2.2.tar"
+            }
+          }
+        },
+        "items": {
+          "version": "2.1.1",
+          "from": "items@2.1.1",
+          "resolved": "./node_shrinkwrap/items-2.1.1.tar"
         },
         "joi": {
           "version": "9.0.4",
-          "from": "joi@>=9.0.0 <10.0.0",
-          "resolved": "./node_shrinkwrap/joi-9.0.4.tar"
+          "from": "joi@9.0.4",
+          "resolved": "./node_shrinkwrap/joi-9.0.4.tar",
+          "dependencies": {
+            "isemail": {
+              "version": "2.2.1",
+              "from": "isemail@2.2.1",
+              "resolved": "./node_shrinkwrap/isemail-2.2.1.tar"
+            },
+            "moment": {
+              "version": "2.14.1",
+              "from": "moment@2.14.1",
+              "resolved": "./node_shrinkwrap/moment-2.14.1.tar"
+            }
+          }
+        },
+        "mimos": {
+          "version": "3.0.3",
+          "from": "mimos@3.0.3",
+          "resolved": "./node_shrinkwrap/mimos-3.0.3.tar",
+          "dependencies": {
+            "mime-db": {
+              "version": "1.23.0",
+              "from": "mime-db@1.23.0",
+              "resolved": "./node_shrinkwrap/mime-db-1.23.0.tar"
+            }
+          }
+        },
+        "podium": {
+          "version": "1.2.3",
+          "from": "podium@1.2.3",
+          "resolved": "./node_shrinkwrap/podium-1.2.3.tar"
+        },
+        "shot": {
+          "version": "3.3.2",
+          "from": "shot@3.3.2",
+          "resolved": "./node_shrinkwrap/shot-3.3.2.tar"
+        },
+        "statehood": {
+          "version": "5.0.0",
+          "from": "statehood@5.0.0",
+          "resolved": "./node_shrinkwrap/statehood-5.0.0.tar",
+          "dependencies": {
+            "boom": {
+              "version": "3.2.2",
+              "from": "boom@>=3.0.0 <4.0.0",
+              "resolved": "./node_shrinkwrap/boom-3.2.2.tar"
+            }
+          }
+        },
+        "subtext": {
+          "version": "4.2.2",
+          "from": "subtext@4.2.2",
+          "resolved": "./node_shrinkwrap/subtext-4.2.2.tar",
+          "dependencies": {
+            "content": {
+              "version": "3.0.2",
+              "from": "content@3.0.2",
+              "resolved": "./node_shrinkwrap/content-3.0.2.tar",
+              "dependencies": {
+                "boom": {
+                  "version": "3.2.2",
+                  "from": "boom@>=3.0.0 <4.0.0",
+                  "resolved": "./node_shrinkwrap/boom-3.2.2.tar"
+                }
+              }
+            },
+            "pez": {
+              "version": "2.1.2",
+              "from": "pez@2.1.2",
+              "resolved": "./node_shrinkwrap/pez-2.1.2.tar",
+              "dependencies": {
+                "b64": {
+                  "version": "3.0.2",
+                  "from": "b64@3.0.2",
+                  "resolved": "./node_shrinkwrap/b64-3.0.2.tar"
+                },
+                "boom": {
+                  "version": "3.2.2",
+                  "from": "boom@>=3.0.0 <4.0.0",
+                  "resolved": "./node_shrinkwrap/boom-3.2.2.tar"
+                },
+                "nigel": {
+                  "version": "2.0.2",
+                  "from": "nigel@2.0.2",
+                  "resolved": "./node_shrinkwrap/nigel-2.0.2.tar",
+                  "dependencies": {
+                    "vise": {
+                      "version": "2.0.2",
+                      "from": "vise@2.0.2",
+                      "resolved": "./node_shrinkwrap/vise-2.0.2.tar"
+                    }
+                  }
+                }
+              }
+            },
+            "wreck": {
+              "version": "10.0.0",
+              "from": "wreck@10.0.0",
+              "resolved": "./node_shrinkwrap/wreck-10.0.0.tar"
+            }
+          }
         },
         "topo": {
           "version": "2.0.2",
-          "from": "topo@>=2.0.0 <3.0.0",
+          "from": "topo@2.0.2",
           "resolved": "./node_shrinkwrap/topo-2.0.2.tar"
         }
       }
@@ -2137,9 +2242,9 @@
       "resolved": "./node_shrinkwrap/hapi-swagger-7.2.0.tar",
       "dependencies": {
         "boom": {
-          "version": "4.0.0",
+          "version": "4.1.0",
           "from": "boom@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/boom-4.0.0.tar"
+          "resolved": "./node_shrinkwrap/boom-4.1.0.tar"
         },
         "hoek": {
           "version": "4.1.0",
@@ -2148,7 +2253,7 @@
         },
         "isemail": {
           "version": "2.2.1",
-          "from": "isemail@>=2.0.0 <3.0.0",
+          "from": "isemail@2.x.x",
           "resolved": "./node_shrinkwrap/isemail-2.2.1.tar"
         },
         "joi": {
@@ -2158,7 +2263,7 @@
         },
         "topo": {
           "version": "2.0.2",
-          "from": "topo@>=2.0.0 <3.0.0",
+          "from": "topo@2.x.x",
           "resolved": "./node_shrinkwrap/topo-2.0.2.tar"
         }
       }
@@ -2214,38 +2319,6 @@
           "version": "2.10.1",
           "from": "boom@>=2.0.0 <3.0.0",
           "resolved": "./node_shrinkwrap/boom-2.10.1.tar"
-        },
-        "cryptiles": {
-          "version": "2.0.5",
-          "from": "cryptiles@>=2.0.0 <3.0.0",
-          "resolved": "./node_shrinkwrap/cryptiles-2.0.5.tar"
-        }
-      }
-    },
-    "heavy": {
-      "version": "4.0.2",
-      "from": "heavy@>=4.0.0 <5.0.0",
-      "resolved": "./node_shrinkwrap/heavy-4.0.2.tar",
-      "dependencies": {
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        },
-        "isemail": {
-          "version": "2.2.1",
-          "from": "isemail@>=2.0.0 <3.0.0",
-          "resolved": "./node_shrinkwrap/isemail-2.2.1.tar"
-        },
-        "joi": {
-          "version": "9.0.4",
-          "from": "joi@>=9.0.0 <10.0.0",
-          "resolved": "./node_shrinkwrap/joi-9.0.4.tar"
-        },
-        "topo": {
-          "version": "2.0.2",
-          "from": "topo@>=2.0.0 <3.0.0",
-          "resolved": "./node_shrinkwrap/topo-2.0.2.tar"
         }
       }
     },
@@ -2313,17 +2386,17 @@
         },
         "isemail": {
           "version": "2.2.1",
-          "from": "isemail@>=2.0.0 <3.0.0",
+          "from": "isemail@2.x.x",
           "resolved": "./node_shrinkwrap/isemail-2.2.1.tar"
         },
         "joi": {
           "version": "9.0.4",
-          "from": "joi@>=9.0.0 <10.0.0",
+          "from": "joi@9.x.x",
           "resolved": "./node_shrinkwrap/joi-9.0.4.tar"
         },
         "topo": {
           "version": "2.0.2",
-          "from": "topo@>=2.0.0 <3.0.0",
+          "from": "topo@2.x.x",
           "resolved": "./node_shrinkwrap/topo-2.0.2.tar"
         }
       }
@@ -2394,23 +2467,6 @@
       "version": "1.0.0",
       "from": "invert-kv@>=1.0.0 <2.0.0",
       "resolved": "./node_shrinkwrap/invert-kv-1.0.0.tar"
-    },
-    "iron": {
-      "version": "4.0.4",
-      "from": "iron@>=4.0.0 <5.0.0",
-      "resolved": "./node_shrinkwrap/iron-4.0.4.tar",
-      "dependencies": {
-        "boom": {
-          "version": "4.0.0",
-          "from": "boom@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/boom-4.0.0.tar"
-        },
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        }
-      }
     },
     "is-arrayish": {
       "version": "0.2.1",
@@ -2574,7 +2630,7 @@
     },
     "items": {
       "version": "2.1.1",
-      "from": "items@>=2.0.0 <3.0.0",
+      "from": "items@2.x.x",
       "resolved": "./node_shrinkwrap/items-2.1.1.tar"
     },
     "jodid25519": {
@@ -2695,9 +2751,9 @@
       "resolved": "./node_shrinkwrap/load-json-file-1.1.0.tar"
     },
     "lodash": {
-      "version": "4.16.1",
+      "version": "4.16.2",
       "from": "lodash@>=4.16.1 <5.0.0",
-      "resolved": "./node_shrinkwrap/lodash-4.16.1.tar"
+      "resolved": "./node_shrinkwrap/lodash-4.16.2.tar"
     },
     "lodash._baseassign": {
       "version": "3.2.0",
@@ -2874,25 +2930,13 @@
     },
     "mime-db": {
       "version": "1.24.0",
-      "from": "mime-db@>=1.0.0 <2.0.0",
+      "from": "mime-db@>=1.24.0 <1.25.0",
       "resolved": "./node_shrinkwrap/mime-db-1.24.0.tar"
     },
     "mime-types": {
       "version": "2.1.12",
       "from": "mime-types@>=2.1.7 <2.2.0",
       "resolved": "./node_shrinkwrap/mime-types-2.1.12.tar"
-    },
-    "mimos": {
-      "version": "3.0.3",
-      "from": "mimos@>=3.0.0 <4.0.0",
-      "resolved": "./node_shrinkwrap/mimos-3.0.3.tar",
-      "dependencies": {
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        }
-      }
     },
     "minimatch": {
       "version": "3.0.3",
@@ -2945,18 +2989,6 @@
       "version": "1.0.2",
       "from": "nested-error-stacks@>=1.0.0 <2.0.0",
       "resolved": "./node_shrinkwrap/nested-error-stacks-1.0.2.tar"
-    },
-    "nigel": {
-      "version": "2.0.2",
-      "from": "nigel@>=2.0.0 <3.0.0",
-      "resolved": "./node_shrinkwrap/nigel-2.0.2.tar",
-      "dependencies": {
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        }
-      }
     },
     "no-arrowception": {
       "version": "1.0.0",
@@ -3164,18 +3196,6 @@
         }
       }
     },
-    "pez": {
-      "version": "2.1.2",
-      "from": "pez@>=2.0.0 <3.0.0",
-      "resolved": "./node_shrinkwrap/pez-2.1.2.tar",
-      "dependencies": {
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        }
-      }
-    },
     "pify": {
       "version": "2.3.0",
       "from": "pify@>=2.0.0 <3.0.0",
@@ -3195,33 +3215,6 @@
       "version": "1.2.1",
       "from": "pluralize@>=1.2.1 <2.0.0",
       "resolved": "./node_shrinkwrap/pluralize-1.2.1.tar"
-    },
-    "podium": {
-      "version": "1.2.3",
-      "from": "podium@>=1.2.0 <2.0.0",
-      "resolved": "./node_shrinkwrap/podium-1.2.3.tar",
-      "dependencies": {
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        },
-        "isemail": {
-          "version": "2.2.1",
-          "from": "isemail@>=2.0.0 <3.0.0",
-          "resolved": "./node_shrinkwrap/isemail-2.2.1.tar"
-        },
-        "joi": {
-          "version": "9.0.4",
-          "from": "joi@>=9.0.0 <10.0.0",
-          "resolved": "./node_shrinkwrap/joi-9.0.4.tar"
-        },
-        "topo": {
-          "version": "2.0.2",
-          "from": "topo@>=2.0.0 <3.0.0",
-          "resolved": "./node_shrinkwrap/topo-2.0.2.tar"
-        }
-      }
     },
     "prelude-ls": {
       "version": "1.1.2",
@@ -3506,33 +3499,6 @@
       "from": "shelljs@>=0.6.0 <0.7.0",
       "resolved": "./node_shrinkwrap/shelljs-0.6.1.tar"
     },
-    "shot": {
-      "version": "3.3.2",
-      "from": "shot@>=3.0.0 <4.0.0",
-      "resolved": "./node_shrinkwrap/shot-3.3.2.tar",
-      "dependencies": {
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        },
-        "isemail": {
-          "version": "2.2.1",
-          "from": "isemail@>=2.0.0 <3.0.0",
-          "resolved": "./node_shrinkwrap/isemail-2.2.1.tar"
-        },
-        "joi": {
-          "version": "9.0.4",
-          "from": "joi@>=9.0.0 <10.0.0",
-          "resolved": "./node_shrinkwrap/joi-9.0.4.tar"
-        },
-        "topo": {
-          "version": "2.0.2",
-          "from": "topo@>=2.0.0 <3.0.0",
-          "resolved": "./node_shrinkwrap/topo-2.0.2.tar"
-        }
-      }
-    },
     "shrinkpack": {
       "version": "0.17.0",
       "from": "shrinkpack@>=0.17.0 <0.18.0",
@@ -3552,6 +3518,11 @@
           "version": "1.1.3",
           "from": "chalk@1.1.3",
           "resolved": "./node_shrinkwrap/chalk-1.1.3.tar"
+        },
+        "graceful-fs": {
+          "version": "4.1.6",
+          "from": "graceful-fs@4.1.6",
+          "resolved": "./node_shrinkwrap/graceful-fs-4.1.6.tar"
         },
         "has-ansi": {
           "version": "2.0.0",
@@ -3649,33 +3620,6 @@
         }
       }
     },
-    "statehood": {
-      "version": "5.0.0",
-      "from": "statehood@>=5.0.0 <6.0.0",
-      "resolved": "./node_shrinkwrap/statehood-5.0.0.tar",
-      "dependencies": {
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        },
-        "isemail": {
-          "version": "2.2.1",
-          "from": "isemail@>=2.0.0 <3.0.0",
-          "resolved": "./node_shrinkwrap/isemail-2.2.1.tar"
-        },
-        "joi": {
-          "version": "9.0.4",
-          "from": "joi@>=9.0.0 <10.0.0",
-          "resolved": "./node_shrinkwrap/joi-9.0.4.tar"
-        },
-        "topo": {
-          "version": "2.0.2",
-          "from": "topo@>=2.0.0 <3.0.0",
-          "resolved": "./node_shrinkwrap/topo-2.0.2.tar"
-        }
-      }
-    },
     "stream-combiner": {
       "version": "0.0.4",
       "from": "stream-combiner@>=0.0.4 <0.1.0",
@@ -3754,18 +3698,6 @@
       "version": "1.0.4",
       "from": "strip-json-comments@>=1.0.1 <1.1.0",
       "resolved": "./node_shrinkwrap/strip-json-comments-1.0.4.tar"
-    },
-    "subtext": {
-      "version": "4.2.1",
-      "from": "subtext@>=4.2.0 <5.0.0",
-      "resolved": "./node_shrinkwrap/subtext-4.2.1.tar",
-      "dependencies": {
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        }
-      }
     },
     "supports-color": {
       "version": "0.2.0",
@@ -4054,18 +3986,6 @@
       "from": "verror@1.3.6",
       "resolved": "./node_shrinkwrap/verror-1.3.6.tar"
     },
-    "vise": {
-      "version": "2.0.2",
-      "from": "vise@>=2.0.0 <3.0.0",
-      "resolved": "./node_shrinkwrap/vise-2.0.2.tar",
-      "dependencies": {
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        }
-      }
-    },
     "vision": {
       "version": "4.1.0",
       "from": "vision@>=4.1.0 <5.0.0",
@@ -4078,7 +3998,7 @@
         },
         "isemail": {
           "version": "2.2.1",
-          "from": "isemail@>=2.0.0 <3.0.0",
+          "from": "isemail@2.x.x",
           "resolved": "./node_shrinkwrap/isemail-2.2.1.tar"
         },
         "joi": {
@@ -4095,7 +4015,7 @@
         },
         "topo": {
           "version": "2.0.2",
-          "from": "topo@>=2.0.0 <3.0.0",
+          "from": "topo@2.x.x",
           "resolved": "./node_shrinkwrap/topo-2.0.2.tar",
           "dependencies": {
             "hoek": {
@@ -4141,18 +4061,6 @@
       "version": "1.0.2",
       "from": "wrappy@>=1.0.0 <2.0.0",
       "resolved": "./node_shrinkwrap/wrappy-1.0.2.tar"
-    },
-    "wreck": {
-      "version": "8.0.1",
-      "from": "wreck@>=8.0.0 <9.0.0",
-      "resolved": "./node_shrinkwrap/wreck-8.0.1.tar",
-      "dependencies": {
-        "hoek": {
-          "version": "4.1.0",
-          "from": "hoek@>=4.0.0 <5.0.0",
-          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar"
-        }
-      }
     },
     "write": {
       "version": "0.2.1",
