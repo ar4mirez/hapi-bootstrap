@@ -160,7 +160,7 @@ build/Release
 # Dependency directories
 node_modules
 jspm_packages
-node_shrinkwrap
+node_cache
 
 # Optional npm cache directory
 .npm
