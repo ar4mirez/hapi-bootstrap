@@ -65,7 +65,7 @@
     "dev": "npm run compile && nodemon dist/index.js",
     "fix": "node_modules/.bin/fixpack",
     "lint": "eslint --ext .js,.jsx lib/",
-    "pack": "npm shrinkwrap --dev && node_modules/.bin/shrinkpack",
+    "pack": "npm shrinkwrap --dev && node_modules/.bin/shrinkpack .",
     "prepublish": "npm run compile",
     "start": "npm run compile && node dist/index.js",
     "test": "npm run compile && node_modules/.bin/lab --transform test/transformer.js -t 100"
