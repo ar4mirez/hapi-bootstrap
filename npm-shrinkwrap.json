@@ -578,6 +578,38 @@
       "resolved": "./node_shrinkwrap/boom-2.10.1.tar",
       "dev": true
     },
+    "bossy": {
+      "version": "3.0.1",
+      "from": "bossy@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/bossy-3.0.1.tar",
+      "dev": true,
+      "dependencies": {
+        "hoek": {
+          "version": "4.1.0",
+          "from": "hoek@4.x.x",
+          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar",
+          "dev": true
+        },
+        "isemail": {
+          "version": "2.2.1",
+          "from": "isemail@>=2.0.0 <3.0.0",
+          "resolved": "./node_shrinkwrap/isemail-2.2.1.tar",
+          "dev": true
+        },
+        "joi": {
+          "version": "9.1.0",
+          "from": "joi@>=9.0.0 <10.0.0",
+          "resolved": "./node_shrinkwrap/joi-9.1.0.tar",
+          "dev": true
+        },
+        "topo": {
+          "version": "2.0.2",
+          "from": "topo@>=2.0.0 <3.0.0",
+          "resolved": "./node_shrinkwrap/topo-2.0.2.tar",
+          "dev": true
+        }
+      }
+    },
     "brace-expansion": {
       "version": "1.1.6",
       "from": "brace-expansion@>=1.0.0 <2.0.0",
@@ -867,6 +899,12 @@
       "resolved": "./node_shrinkwrap/detect-indent-3.0.1.tar",
       "dev": true
     },
+    "diff": {
+      "version": "3.0.0",
+      "from": "diff@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/diff-3.0.0.tar",
+      "dev": true
+    },
     "doctrine": {
       "version": "1.4.0",
       "from": "doctrine@>=1.2.2 <2.0.0",
@@ -1140,6 +1178,12 @@
       "version": "2.2.3",
       "from": "fill-range@>=2.1.0 <3.0.0",
       "resolved": "./node_shrinkwrap/fill-range-2.2.3.tar",
+      "dev": true
+    },
+    "find-rc": {
+      "version": "3.0.1",
+      "from": "find-rc@>=3.0.0 <3.1.0",
+      "resolved": "./node_shrinkwrap/find-rc-3.0.1.tar",
       "dev": true
     },
     "find-up": {
@@ -2154,16 +2198,16 @@
       "from": "klaw@>=1.0.0 <2.0.0",
       "resolved": "./node_shrinkwrap/klaw-1.3.0.tar"
     },
-    "label": {
-      "version": "0.2.2",
-      "from": "label@>=0.2.2 <0.3.0",
-      "resolved": "./node_shrinkwrap/label-0.2.2.tar",
+    "lab": {
+      "version": "11.1.0",
+      "from": "lab@latest",
+      "resolved": "./node_shrinkwrap/lab-11.1.0.tar",
       "dev": true,
       "dependencies": {
-        "nopt": {
-          "version": "2.1.2",
-          "from": "nopt@>=2.1.2 <2.2.0",
-          "resolved": "./node_shrinkwrap/nopt-2.1.2.tar",
+        "hoek": {
+          "version": "4.1.0",
+          "from": "hoek@>=4.0.0 <5.0.0",
+          "resolved": "./node_shrinkwrap/hoek-4.1.0.tar",
           "dev": true
         }
       }
